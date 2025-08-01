@@ -11,6 +11,7 @@ import Hero8 from './components/Hero8/Hero8'
 import Hero9 from './components/Hero9/Hero9'
 import Footer from './components/Footer/Footer'
 import FooterBottom from './components/FooterBottom/FooterBottom'
+import FooterDown from './components/FooterDown/FooterDown'
 
 function App() {
   
@@ -29,6 +30,7 @@ function App() {
       <Hero9/>
       <Footer/>
       <FooterBottom/>
+      <FooterDown/>
     
     </>
   )
