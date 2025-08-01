@@ -1,0 +1,85 @@
+.hero5Container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 65px;
+    margin-bottom: 75px;
+}
+.hero5First{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex: 1;
+}
+.hero5First img{
+    width: 90%;
+    height: 50%;
+}
+.hero5FirstText{
+    font-size: 24px;
+    margin-top: -15px;
+    text-align: left;
+}
+.hero5FirstText h1{
+    font-size: 50px;
+    align-self: flex-start;
+    margin-left: 24px;
+}
+.hero5FirstText p{
+    font-size: 20px;
+    margin-left: 24px;
+    margin-top: -15px;
+}
+.hero5FirstText button{
+    margin-left: 24px;
+    padding: 15px 25px;
+    font-size: 20px;
+    background-color: white;
+    color: #663399;
+    border: none;
+    border: 2px solid #663399;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.hero5Second{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex: 1;
+
+}
+.hero5Second img{
+    width: 90%;
+    height: 50%;
+}
+.hero5SecondText{
+    font-size: 24px;
+    margin-top: -15px;
+    text-align: left;
+}
+.hero5SecondText h1{
+    font-size: 50px;
+    align-self: flex-start;
+    margin-left: 24px;
+}
+.hero5SecondText p{
+    font-size: 20px;
+    margin-left: 24px;
+    margin-top: -15px;
+}
+.hero5SecondText button{
+    margin-left: 24px;
+    padding: 15px 25px;
+    font-size: 20px;
+    background-color: white;
+    color: #663399;
+    border: none;
+    border: 2px solid #663399;
+    border-radius: 8px;
+    cursor: pointer;
+}

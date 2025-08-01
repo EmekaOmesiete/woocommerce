@@ -1,0 +1,46 @@
+.hero2Section{
+    text-align: center;
+    padding: 30px 20px;
+}
+.hero2Section h1{
+    text-align: left;
+    font-size: 65px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.hero2TextContainer {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    margin-left: 20px;
+}
+.hero2Text {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    border-left: 2px solid #663399;
+    margin-left: -30px;
+    margin-top: 15px;
+}
+.hero2Text h3{
+    font-size: 35px;
+    align-self: flex-start;
+    text-align: left;
+    margin-left: 20px;
+    color: #663399;
+    
+}
+.hero2Text p{
+    font-size: 20px;
+    align-self: flex-start;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: -10px;
+   
+}
+.hero2Text a{
+    align-self: flex-start;
+    text-align: left;
+    margin-left: 20px;
+}

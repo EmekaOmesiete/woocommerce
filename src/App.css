@@ -1,0 +1,72 @@
+.navigation{
+    width: 100%;
+    height: 84%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1;
+    /* gap: 20px; */
+    flex-wrap: nowrap;
+    /* background-color: green; */
+
+}
+.headerNav{
+    width: 30%;
+    height: 70px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 1;
+    gap: 40px;
+    /* flex-wrap: nowrap; */
+    /* background-color: chartreuse; */
+    font-size: 18px;
+}
+.textList{
+  display: flex;
+  /* background-color: black; */
+  /* color: beige; */
+  gap: 60px;
+  font-size: 18px;
+  
+}
+.textList li{
+  list-style: none;
+  justify-content: flex-start;
+  font-size: 22px;
+}
+.headerSide{
+  width: 30%;
+  height: 70px;
+  display: flex;
+  flex-wrap: nowrap;
+  /* background-color: brown; */
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  font-size: 18px;
+}
+.headerSide li{
+    list-style: none;
+    color: #663399;
+    font-size: 18px;
+}
+.btn{
+   width: 60%;
+   padding: 10px 15px;
+   height: 60px;
+   border: none;
+   border-radius: 8px;
+   background-color: white;
+   color: #663399;
+   cursor: pointer;
+   border: 2px solid #663399;
+   font-size: 18px;
+   transition: transform 0.2s;
+}
+.btn:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    
+}

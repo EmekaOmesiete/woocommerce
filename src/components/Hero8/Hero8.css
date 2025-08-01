@@ -1,0 +1,33 @@
+.hero8Section {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    animation: moveCardsLeft 20s linear infinite;
+    width: 150%;
+    height: 150%;
+    border: none;
+    margin-top: -20px;
+}
+
+.card2 {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border: none;
+    border-radius: 5px;
+    width: 90px;
+    height: 85px;
+}
+
+.card2 img {
+    width: 120%;
+    height: 30%;
+    object-fit: cover;
+}
+@keyframes moveCardsLeft {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+}
